@@ -1,0 +1,35 @@
+{
+  "name": "pomelo-client-ts",
+  "version": "1.3.7",
+  "description": "",
+  "main": "pomelo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typings": "tsc -p tsconfig.json"
+  },
+  "types": "./types/pomelo.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShilongLee/pomelo-client-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShilongLee/pomelo-client-ts/issues"
+  },
+  "homepage": "https://github.com/ShilongLee/pomelo-client-ts#readme",
+  "devDependencies": {
+    "@types/is": "0.0.20",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^10.9.4"
+  },
+  "dependencies": {
+    "eventemitter3": "^3.1.0",
+    "is": "^3.2.1",
+    "moment": "^2.22.2",
+    "protobufjs": "^6.8.8",
+    "url": "^0.11.0",
+    "util": "^0.11.0"
+  }
+}
