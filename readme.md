@@ -34,10 +34,10 @@
     pomelo.connection.on('connected',()=>{
         /// 这是链接初始化完成的事件(注意区别于鉴权 ready )
     });
-    pomelo.connection.on('getout',()=>{
+    pomelo.connection.on('disconnected',()=>{
         /// 这是 socket 断开连接的事件
     });
-    pomelo.connection.on('kickout',()=>{
+    pomelo.connection.on('kicked',()=>{
         /// 这是服务器踢出连接的事件
     });
     pomelo.connection.on('ready',()=>{

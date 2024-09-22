@@ -22,11 +22,11 @@ export namespace pomelo {
         /// 鉴权完成, 内容为 auth 函数的返回值
         // on(event: 'ready', fn: EventEmitter.ListenerFn): void;
 
-        /// 服务器断开链接
-        // on(event: 'kickout', fn: EventEmitter.ListenerFn): void;
+        /// 服务器踢出链接
+        // on(event: 'kicked', fn: EventEmitter.ListenerFn): void;
 
-        /// connect 动作 retry 次数后都失败, 触发该事件并不再重试!
-        // on(event: 'getout', fn: EventEmitter.ListenerFn): void;
+        /// 重连失败与服务器断开连接, 触发该事件并不再重试!
+        // on(event: 'disconnected', fn: EventEmitter.ListenerFn): void;
     }
 
     export interface Option {
