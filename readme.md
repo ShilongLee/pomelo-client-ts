@@ -1,4 +1,4 @@
-# pomelo 游戏框架的 client typescript 连接代码
+# pomelo 游戏框架的typescript客户端连接库
 
 ## Install
 
