@@ -5,9 +5,9 @@ export namespace pomelo {
 
     export interface Client extends EventEmitter {
 
-        request(route: string, msg: any): Promise<any>;
+        request(route: string, msg?: any): Promise<any>;
 
-        notify(route: string, msg: any): Promise<any>;
+        notify(route: string, msg?: any): Promise<any>;
 
         disconnect(code?: number, reason?: string): void;
 
