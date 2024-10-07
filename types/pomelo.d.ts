@@ -9,6 +9,8 @@ export namespace pomelo {
 
         notify(route: string, msg?: any): Promise<any>;
 
+        connect(opts?: Option): Promise<any>;
+
         disconnect(code?: number, reason?: string): void;
 
         auth(): Promise<object | undefined>;
